@@ -17,7 +17,7 @@ Game.PreloaderState.prototype = {
         // this.game.load.image('walls_1x2', 'assets/game/tilemaps/tiles/walls_1x2.png');
         // this.game.load.image('tiles2', 'assets/game/tilemaps/tiles/tiles2.png');
         // Player
-        this.game.load.atlas('player_atlas', 'assets/game/spritesheets/shae_spritesheet_100-100-20.png', 'assets/game/spritesheets/shae_spritesheet_100-100-20.json');
+        this.game.load.atlas('main_sprite_atlas', 'assets/game/spriteatlases/main_sprite_atlas.png', 'assets/game/spriteatlases/main_sprite_atlas.json');
 
         this.ready = true;
     },
